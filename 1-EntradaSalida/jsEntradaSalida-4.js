@@ -4,6 +4,10 @@
 */
 function mostrar()
 {
+	var person;
+	person=prompt("Ingrese su nombre");
+	//elNombre.value=person;
+	document.getElementById('elNombre').value=person;
 
 }
 
