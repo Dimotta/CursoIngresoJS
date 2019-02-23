@@ -17,8 +17,6 @@ function mostrar()
 	contadordepares=0;
 	contadordepositivos=0;
 	contadordenegativos=1;
-	positivo=0;
-	negativo=1;
 	//declarar contadores y variables 
 	
 	var respuesta="si";
@@ -34,21 +32,25 @@ function mostrar()
 
 		if (numero<0)
 		{
-			negativo=negativo+numero;
+			sumanegativos=negativo+numero;
 			contadordenegativos=contadordenegativos+1;
 		}
 		else
 		{
 			if (numero>0)
 			{	
-			positivo=positivo+numero;
+			sumapositivos=positivo+numero;
+			contadordepositivos=contadordepositivos;
 
 			}
 			else
 			{
 				ceros=ceros+1;
 			}
-
+		if (numero) 
+		{
+			contadordepares=contadordepares
+		}
 
 		}
 
